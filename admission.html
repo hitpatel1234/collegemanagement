@@ -1,0 +1,97 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Student Portal</title>
+</head>
+<body>
+<center>
+<nav>
+    <a href="home.html">Home</a>
+    <a href="admission.html">admission</a>
+    <a href="hostel.html">Hostel</a>
+    <a href="information.html">information</a>
+    <a href="contact.html">contact</a>
+  <header>
+  </center>
+  <header>
+    <h1>Student Portal</h1>
+  </header>
+  <nav>
+    <a href="#login">Student Login</a>
+    <a href="#admission">Admission</a>
+  </nav>
+    <title>College Management System - Fee Structure</title>
+</head>
+<body>
+    <div class="cms-fees">
+        <h2>College Management System - Fee Structure</h2>
+        <table>
+            <tr>
+                <th>Program</th>
+                <th>Duration</th>
+                <th>Tuition Fee</th>
+                <th>Additional Fees</th>
+                <th>Total Fee</th>
+            </tr>
+            <tr>
+                <td>Bachelor's Degree</td>
+                <td>4 years</td>
+                <td>$8,000 per year</td>
+                <td>$1,000</td>
+                <td>$33,000</td>
+            </tr>
+            <tr>
+                <td>Master's Degree</td>
+                <td>2 years</td>
+                <td>$10,000 per year</td>
+                <td>$1,500</td>
+                <td>$22,500</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+  <section id="login">
+    <h2>Student Login</h2>
+    <form action="login.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <section id="admission">
+    <h2>Admission</h2>
+    <p>Fill out the admission form below:</p>
+    <form action="welcome.html" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="course">Select Course:</label>
+      <select id="course" name="course">
+        <option value="bsc it">bsc it</option>
+        <option value="bca">bca</option>
+        <option value="bsc chemistry">bsc chemistry</option>
+      </select>
+
+      <button type="submit">Submit Admission Form</button>
+	 
+    </form>
+  </section>
+  
+  
+  <footer>
+    &copy; 2024 Student Portal
+  </footer>
+</body>
+</html>
